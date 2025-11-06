@@ -33,7 +33,7 @@ ml-narrative-intertextuality-analysis/
 │ └── .gitkeep
 ├── semantic_space_analysis_output/                  # (empty) Placeholder for semantic results
 │ └── .gitkeep
-├── spacy_lda.yaml                                   # Python dependencies
+├── spacy_lda_vad.yaml                               # Python dependencies
 ├── semantic_space.yaml                              # Python dependencies
 ├── .gitignore                                       # Python-specific ignores
 ├── LICENSE                                          # MIT License
@@ -51,7 +51,7 @@ git clone https://github.com/yourusername/ml-narrative-intertextuality-analysis.
 cd ml-narrative-intertextuality-analysis
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
-conda env create -f spacy_lda.yaml
+conda env create -f spacy_lda_vad.yaml
 conda env create -f semantic_space.yaml 
 python -m spacy download en_core_web_sm
 ```
