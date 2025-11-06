@@ -20,23 +20,23 @@ All analysis scripts, environment settings, and processing logic are fully avail
 ## Repository Structure
 ```
 ml-narrative-intertextuality-analysis/
-├── spacy_lda_clarissa.py # Preprocessing and LDA for Clarissa's text
-├── spacy_lda_septimus.py # Preprocessing and LDA for Septimus's text
-├── topic_alignment_results.py # Topic alignment and similarity analysis
-├── compute_topic_vad_comparison.py # VAD emotional analysis on topics
-├── semantic_space_analysis.py # Semantic embedding, clustering, and visualization
-├── data/ # (empty) Placeholder for source texts
+├── spacy_lda_clarissa.py                            # Preprocessing and LDA for Clarissa's text
+├── spacy_lda_septimus.py                            # Preprocessing and LDA for Septimus's text
+├── topic_alignment_results.py                       # Topic alignment and similarity analysis
+├── compute_topic_vad_comparison.py                  # VAD emotional analysis on topics
+├── semantic_space_analysis.py                       # Semantic embedding, clustering, and visualization
+├── data/                                            # (empty) Placeholder for source texts
 │ └── .gitkeep
-├── LDA_output/ # (empty) Placeholder for LDA results
+├── LDA_output/                                      # (empty) Placeholder for LDA results
 │ └── .gitkeep
-├── VAD_output/ # (empty) Placeholder for VAD results
+├── VAD_output/                                      # (empty) Placeholder for VAD results
 │ └── .gitkeep
-├── semantic_space_analysis_output/ # (empty) Placeholder for semantic results
+├── semantic_space_analysis_output/                  # (empty) Placeholder for semantic results
 │ └── .gitkeep
-├── requirements.txt # Python dependencies
-├── .gitignore # Python-specific ignores
-├── LICENSE # MIT License
-└── README.md # This file
+├── requirements.txt                                 # Python dependencies
+├── .gitignore                                       # Python-specific ignores
+├── LICENSE                                          # MIT License
+└── README.md                                        # This file
 ```
 ---
 
