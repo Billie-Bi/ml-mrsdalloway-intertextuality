@@ -84,6 +84,7 @@ python semantic_space_analysis.py
 ---
 
 ## Data Availability
+
 The novel text and all processed data are currently withheld during peer review to ensure double-blind integrity.  
 Upon acceptance, both the raw and processed datasets will be publicly released via **Zenodo**, and this section will be updated with the DOI.
 ---
@@ -101,7 +102,6 @@ If you use or adapt the analysis scripts, please cite:
 ---
 
 ## License
-
 This project is licensed under the MIT License — see the LICENSE file for details.
 ---
 
