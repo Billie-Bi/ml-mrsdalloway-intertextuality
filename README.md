@@ -3,11 +3,14 @@ A unified machine learning framework for thematic, emotional, and semantic analy
 
 ---
 ## Overview
+
 This repository contains the **analysis scripts** for a machine learning–enhanced computational study of narrative intertextuality between Clarissa Dalloway and Septimus Warren Smith in *Virginia Woolf’s Mrs Dalloway*.
 The framework integrates NLP tools such as **spaCy**, **Gensim**, **Sentence-BERT**, **UMAP**, **HDBSCAN**, and the **NRC VAD Lexicon** to quantify thematic structures, emotional profiles, and semantic spaces, revealing patterns in **psychological resonance** and **modernist narrative technique**.
 It includes scripts for text preprocessing, LDA topic modeling, topic alignment, VAD emotional analysis, and semantic space visualization, ensuring full methodological transparency and reproducibility.
+
 This repository accompanies the paper:
 **“Machine Learning Study of Narrative Intertextuality: Integrated Analysis of Thematic, Emotional, and Semantic Dimensions in Mrs Dalloway.”**
+
 **Note:**
 To maintain the integrity of the peer review process, all raw and processed data are withheld during review.
 Upon acceptance, both datasets will be released through **Dryad** and linked here.
@@ -98,6 +101,7 @@ If you use or adapt the analysis scripts, please cite:
 ---
 
 ## License
+
 This project is licensed under the MIT License — see the LICENSE file for details.
 ---
 
